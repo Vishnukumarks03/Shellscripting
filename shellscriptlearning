@@ -1,0 +1,21 @@
+#My shell scripting learning
+
+1) ${sample%.*} - base name
+
+  String manipulation of base characters or base name
+  For ex: float=20.5, echo ${float%.*} gives 20
+          filename="sample.txt", base_name=${filename%.*} gives sample
+
+2) $# number of command line arguments passed to the script(Count the number of arguments excluding the script file)
+
+
+
+
+
+
+
+
+
+
+
+                                
