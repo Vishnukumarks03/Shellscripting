@@ -8,7 +8,10 @@
 
 2) $# number of command line arguments passed to the script(Count the number of arguments excluding the script file)
 
-3) declare -A user = '([key]="value")'
+3) declare -A user = '([key]="value")' // declarative associate array
+   echo "Value for key:   ${user["key"]}"
+4) $? - Exit status of the last executed command
+
 
 
 
