@@ -12,6 +12,8 @@
    echo "Value for key:   ${user["key"]}"
 4) $? - Exit status of the last executed command
 
+5) cat -v is used to display non-printing characters in a visible format. This is particularly useful when you're trying to debug a file that might contain hidden or non-printable characters (such as control characters - ^M).
+
 
 
 
